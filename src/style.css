@@ -1,0 +1,136 @@
+.head{
+  height:60px;
+  top: -40px;
+  display: flex;
+  align-items: center;
+  flex-flow: row;
+  gap:8vw;
+  background-color: rgb(178, 160, 219);
+  border: 2px solid seagreen;
+  position: relative;
+}
+nav{
+  height: 120px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(224, 131, 146);
+}
+nav>a{
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.active-class{
+  color: blueviolet;
+}
+
+.not-active-class{
+  color: rgb(62, 51, 86);
+}
+
+.student-cls{
+  display: flex;
+  margin-right:10vw;
+  margin-left: 10vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.student-cls>button{
+  height: fit-content;
+  font-weight: bold;
+  background-color: rgb(242, 203, 237);
+  border: 2px solid palevioletred;
+  width: 150px;
+  height: 50px;
+  padding: 10px;
+}
+
+.student-cls>button:hover{
+  cursor: pointer;
+  box-shadow: 0 2px 4px goldenrod;
+}
+
+.lists{
+  width: 82%;
+  margin-left:30px;
+  margin-right: 30px;
+  height: fit-content;
+  background-color: purple;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  position: relative;
+  margin: auto;
+  top: 40px;
+}
+.listed{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+form{
+  padding: 25px;
+  border: 2px dotted gray;
+  border-radius: 20px;
+  display: flex;
+  flex-flow: column;
+  width: 300px;
+  justify-content: center;
+}
+
+form>input{
+  border: none;
+  background-color: turquoise;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.listed>.ones>button{
+  width:110px;
+  padding: 10px;
+  border: 2px solid rgb(89, 10, 154);
+  font-weight: bold;
+  background-color: thistle;
+  position: relative;
+  bottom: 20px;
+}
+.listed>button:hover{
+  cursor: pointer;
+}
+
+.StudentCard{
+  display: flex;
+  flex-flow: row;
+  gap: 10vw;
+  align-items: center;
+  border-bottom: 2px solid ghostwhite;
+}
+.ones{
+  display: flex;
+  flex-flow: row;
+  gap: 1vw;
+  margin-left: 8vw;
+}
+
+.ones>button:hover{
+  cursor: pointer;
+}
+.list{
+  position: relative;
+  top: -30px;
+}
+.StudentCard>button{
+  height: fit-content;
+  padding: 10px;
+  background-color: white;
+  border: none;
+}
+.StudentCard>button:hover{
+  cursor: pointer;
+}
+.StudentCard>h2{
+  width: 15px;
+}
+
